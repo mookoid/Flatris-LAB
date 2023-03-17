@@ -1,4 +1,5 @@
 // @flow
+// this is the error handler
 
 import React, { Component } from 'react';
 import withRedux from 'next-redux-wrapper';
