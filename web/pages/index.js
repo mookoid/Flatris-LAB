@@ -16,7 +16,7 @@ class IndexPage extends Component<Props> {
   static async getInitialProps({ req, store }) {
     const { dispatch } = store;
 
-    // Food for thought: How to not duplicate this on every page
+    // Food for thought: How to not duplicate this on every page - check this out
     if (req) {
       await addCurUserToState(req, store);
     }
